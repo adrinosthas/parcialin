@@ -12,7 +12,10 @@
         <title>Asistente</title>
     </head>
     <body>
+        
+        
         <%
+            //holiii :) 
             String op=request.getParameter("op");
             if(op.equals("Crear")){
                 response.sendRedirect("crear.jsp");
